@@ -5,7 +5,6 @@ import BoldText from './BoldText'
 import HeaderText from './HeaderText'
 import Header from './Header'
 import Swiper from './Swiper'
-import { colors } from './utils'
 import ProductSwiper from './ProductSwiper'
 import Wrapper from './Wrapper'
 import HollowButton from './HollowButton'
@@ -23,7 +22,6 @@ export {
 	BoldText,
 	HeaderText,
 	Loading,
-	colors,
 	HollowButton,
 	SafeHydrate,
 	Wrapper,
