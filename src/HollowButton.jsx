@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from 'gestalt'
+import { TapArea, Box } from 'gestalt'
 import HeaderText from './HeaderText'
 import styled from 'styled-components'
 

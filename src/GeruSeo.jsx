@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { NextSeo, SocialProfileJsonLd } from 'next-seo';
-
 const FACEBOOK_APP_ID = "571006673273454"
 
 const GeruSeo = (props) => {

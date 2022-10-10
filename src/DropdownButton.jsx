@@ -1,8 +1,8 @@
 import React from 'react'
 import { Box, TapArea } from 'gestalt'
 import HeaderText from './HeaderText'
-import Icon from './Icon'
 import styled from 'styled-components'
+import Icon from './Icon'
 import { colors } from './utils'
 import { useMediaQuery } from 'react-responsive'
 

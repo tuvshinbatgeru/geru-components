@@ -1,4 +1,5 @@
 import colors from './colors'
+import axios from 'axios'
 
 function _artistTypeHelper() {
 	return {
@@ -13,8 +14,17 @@ function topicSlugCutter(slug) {
 	return slug.split("geru.mn/topic/")[1]
 }
 
+function getBase64(url) {
+    return axios
+        .get(url, {
+            responseType: 'arraybuffer'
+        })
+        .then(response => Buffer.from(response.data, 'binary').toString('base64'))
+}
+
 export {
 	colors,
 	_artistTypeHelper,
-	topicSlugCutter
+	topicSlugCutter,
+	getBase64
 }

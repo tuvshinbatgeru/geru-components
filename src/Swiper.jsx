@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Box } from 'gestalt'
-import styled from 'styled-components'
 import { useMediaQuery } from 'react-responsive'
+import styled from 'styled-components'
 import Icon from './Icon'
 
 const LeftWrapper = styled.div`

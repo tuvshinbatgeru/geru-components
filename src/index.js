@@ -1,9 +1,10 @@
 import Loading from './Loading'
+import TransformImage from './TransformImage'
 import EmptyLoading from './EmptyLoading'
 import FilterTrigger from './FilterTrigger'
 import BoldText from './BoldText'
 import HeaderText from './HeaderText'
-import Header from './Header'
+import Tabs from './Tabs'
 import Swiper from './Swiper'
 import ProductSwiper from './ProductSwiper'
 import Wrapper from './Wrapper'
@@ -16,12 +17,14 @@ import CountdownVertical from './CountdownVertical'
 import Seperator from './Seperator'
 import Icon from './Icon'
 import SafeHydrate from './SafeHydrate'
+
 import slugify from 'slugify'
 
 export {
 	BoldText,
 	HeaderText,
 	Loading,
+	Tabs,
 	HollowButton,
 	SafeHydrate,
 	Wrapper,
@@ -34,8 +37,8 @@ export {
 	customImageLoader,
 	CountdownVertical,
 	Seperator,
-	Header,
 	Icon,
+	TransformImage,
 	Countdown,
 	slugify
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Box } from 'gestalt'
+import { Box, Text } from 'gestalt'
 import HeaderText from './HeaderText'
 
 const Countdown = (props) => {

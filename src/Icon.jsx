@@ -1,8 +1,7 @@
 import React from 'react'
 import IcoMoon from "react-icomoon"
+import iconSet from './icons/selection.json'
 import { colors } from './utils'
-
-const iconSet = require("./icons/selection.json");
 
 const Icon = ({ ...props }) => {
     const _getColor = () => {
