@@ -57,6 +57,7 @@ const HeaderText = (props) => {
             case 'black': return '#fff'
             case 'orange': return '#F07900'
             case 'white': return '#000'
+            case 'light': return '#fff'
             case 'empty': return '#fff'
             case 'green': return '#00CDA5'
             case 'cyan': return '#21E3C5'
@@ -69,7 +70,10 @@ const HeaderText = (props) => {
             case 'black': return '#000'
             case 'orange': return '#F07900'
             case 'white': return '#fff'
+            case 'light': return '#fff'
             case 'empty': return '#fff'
+            case 'primary': return colors.colorRed
+            case 'secondary': return colors.colorBlack
             case 'pink': return colors.colorPink
             case 'red': return colors.colorRed
             case 'gray': return colors.colorGray
