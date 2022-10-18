@@ -14,6 +14,7 @@ const Text = styled.span`
     text-align: ${props => props.align};
     line-height: ${props => props.lineHeight}em !important;
     margin-top: ${props => props.marginTop}em;
+    white-space: ${props => props.whiteSpace};
     font-size: ${props => props.size}px;
     margin-bottom: 0;
     overflow: hidden;
@@ -40,6 +41,7 @@ const HeaderText = (props) => {
         lineClamp = 100,
         lineHeight = 0.9,
         letterSpacing = 'normal',
+        whiteSpace = 'nowrap',
         decoration,
         stokeWidth = 0,
         hoverTextColor = "",
@@ -136,6 +138,7 @@ const HeaderText = (props) => {
             align={align}
             marginTop={marginTop}
             decoration={decoration}
+            whiteSpace={whiteSpace}
             letterSpacing={letterSpacing}
             lineClamp={lineClamp}
             stokeWidth={stokeWidth}
