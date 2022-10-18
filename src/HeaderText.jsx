@@ -41,7 +41,7 @@ const HeaderText = (props) => {
         lineClamp = 100,
         lineHeight = 0.9,
         letterSpacing = 'normal',
-        whiteSpace = 'nowrap',
+        whiteSpace = 'wrap',
         decoration,
         stokeWidth = 0,
         hoverTextColor = "",
