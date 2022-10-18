@@ -10,6 +10,7 @@ const Text = styled.span`
     font-family: "${props => props.font}" !important;
     color: ${props => props.color};
     display: 'inline';
+    letter-spacing: ${props => props.letterSpacing}px;
     text-align: ${props => props.align};
     line-height: ${props => props.lineHeight}em !important;
     margin-top: ${props => props.marginTop}em;
@@ -38,6 +39,7 @@ const HeaderText = (props) => {
         align = 'start', 
         lineClamp = 100,
         lineHeight = 0.9,
+        letterSpacing = 'normal',
         decoration,
         stokeWidth = 0,
         hoverTextColor = "",
@@ -115,6 +117,7 @@ const HeaderText = (props) => {
     const _getFont = () => {
         switch(font) {
             case "header": return 'GeruBebas'
+            case "regular": return "GeruRegular"
             case "body": return 'GeruMachina'
             case "highlight": return 'DifferentMakesUs'
             default: return 'GeruBebas'
@@ -133,6 +136,7 @@ const HeaderText = (props) => {
             align={align}
             marginTop={marginTop}
             decoration={decoration}
+            letterSpacing={letterSpacing}
             lineClamp={lineClamp}
             stokeWidth={stokeWidth}
             hoverTextColor={hoverTextColor}

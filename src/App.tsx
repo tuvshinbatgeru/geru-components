@@ -9,8 +9,6 @@ const App = () => {
             <Text>TEST</Text>
 
             <HeaderText>Hey This is text</HeaderText>
-
-            <MockupPreview />
         </Box>
     )
 }
