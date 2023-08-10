@@ -122,7 +122,7 @@ const HeaderText = (props) => {
             case "regular": return "GeruRegular"
             case "body": return 'GeruMachina'
             case "highlight": return 'DifferentMakesUs'
-            default: return 'GeruBebas'
+            default: return font
         }
     }
 

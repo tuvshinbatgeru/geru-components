@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Text } from 'gestalt'
 import HeaderText from './HeaderText'
+import Icon from './Icon'
 import { MockupPreview } from './mockup'
 
 const App = () => {
@@ -10,6 +11,11 @@ const App = () => {
 
             <Box width={100}>
                 <HeaderText whiteSpace='wrap'>Hey This is text</HeaderText>
+
+                <Icon 
+                    icon="category"
+                    size={32}
+                />
             </Box>
         </Box>
     )
