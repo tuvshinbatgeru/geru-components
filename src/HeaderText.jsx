@@ -45,7 +45,7 @@ const HeaderText = (props) => {
         decoration,
         stokeWidth = 0,
         hoverTextColor = "",
-        font = "header"//header, body, highlight
+        font = "proxima-nova"//header, body, highlight
     } = props
     const [schema, setSchema] = useState('light')
 
