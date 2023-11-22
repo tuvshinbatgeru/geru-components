@@ -1,4 +1,3 @@
-import Loading from './Loading'
 import TransformImage from './TransformImage'
 import EmptyLoading from './EmptyLoading'
 import FilterTrigger from './FilterTrigger'
@@ -23,7 +22,6 @@ import slugify from 'slugify'
 export {
 	BoldText,
 	HeaderText,
-	Loading,
 	Tabs,
 	HollowButton,
 	SafeHydrate,
